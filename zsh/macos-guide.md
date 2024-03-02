@@ -30,10 +30,11 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 ```
 2. Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
+3. the modified files are store at the `p10k.zsh-file` and `zshrc-file` folders
 ---
 
 ### Install plugin for Oh-myZsh
-1. [syntax](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+1. [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 
 ---
 
