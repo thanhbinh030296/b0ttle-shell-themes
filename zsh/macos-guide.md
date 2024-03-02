@@ -1,5 +1,7 @@
 # my macOS-zsh shell
 
+![alt text](img/banner.png)
+
 ## tutorial 
 
 - Install oh-my-zsh firsly
@@ -21,6 +23,18 @@ it will be updated soon.
 ```
 ---
 ### Install theme powershell-10k
+
+1. clone:
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+2. Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
+
+---
+
+### Install plugin for Oh-myZsh
+1. [syntax](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+
 ---
 
 - install VIM
@@ -60,4 +74,9 @@ I refered this : https://stackoverflow.com/questions/46350636/how-do-i-edit-vims
 >> syntax on
 >
 >> colo molokai
+>
+>> set backspace=indent,eol,start (for using backspace on vim on MacOS)
 >5. Restart terminal
+
+
+## end
