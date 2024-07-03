@@ -17,6 +17,13 @@ ZSH_THEME="rkj-repos"
 The terminal at this moment wil be like this :D
 
 ![alt text](img/oh-my-zsh.png)
+
+#### Another theme **zeta**
+![alt text](img/zeta.png)
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/skylerlee/zeta-zsh-theme/master/scripts/install.sh)"
+```
+
 - install for **`all users`**
 ```
 it will be updated soon.
@@ -31,7 +38,13 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 2. Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
 3. the modified files are store at the `p10k.zsh-file` and `zshrc-file` folders
+```
+cp p10k.zsh-file/.p10k.zsh ~/
+
+source ~/.zshrc
+```
 ---
+
 
 ### Install plugin for Oh-myZsh
 1. [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
