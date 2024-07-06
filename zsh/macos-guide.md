@@ -92,4 +92,15 @@ set backspace=indent,eol,start #(for using backspace on vim on MacOS)
 >5. Restart terminal
 
 
+
+# Highlight syntax
+1. Clone
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+2. Activate the plugin in `~/.zshrc`:
+```
+plugins=( [plugins...] zsh-syntax-highlighting)
+```
+3/ restart terminal
 ## end
