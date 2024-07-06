@@ -84,12 +84,11 @@ I refered this : https://stackoverflow.com/questions/46350636/how-do-i-edit-vims
 >>vim ~/.vimrc
 >
 >Your .vimrc file should look similar to the following:
->
->> syntax on
->
->> colo molokai
->
->> set backspace=indent,eol,start (for using backspace on vim on MacOS)
+```
+syntax on
+colo molokai
+set backspace=indent,eol,start #(for using backspace on vim on MacOS)
+```
 >5. Restart terminal
 
 
